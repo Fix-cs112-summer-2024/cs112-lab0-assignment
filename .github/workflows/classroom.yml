@@ -25,7 +25,7 @@ jobs:
         expected-output: Welcome to CS112 and C++, Amunzle!
         comparison-method: contains
         timeout: 10
-        max-score: 1
+        max-score: 2.5
     - name: final test 2
       id: final-test-2
       uses: classroom-resources/autograding-io-grader@v1
@@ -37,7 +37,7 @@ jobs:
         expected-output: Welcome to CS112 and C++, Linz!
         comparison-method: contains
         timeout: 10
-        max-score: 1
+        max-score: 2.5
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
